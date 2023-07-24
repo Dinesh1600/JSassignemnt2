@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #gallery figure {
+    text-align: center;
+  }
+  
+  #gallery figure img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #gallery figure figcaption {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #gallery ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #gallery ul li {
+    margin-right: 10px;
+  }
+  
+  #gallery ul li img {
+    cursor: pointer;
+  }
+  
